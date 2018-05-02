@@ -1,0 +1,47 @@
+//
+//  PrefixHeader.pch
+//  CT Security
+//
+//  Created by Media3 on 7/3/17.
+//  Copyright © 2017 Media3. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "HomeVC.h"
+#import "CheckInVC.h"
+#import "CheckOutVC.h"
+#import "SettingsVC.h"
+#import "AppDelegate.h"
+#import "CheckOutCollectionViewCell.h"
+#import "Reuse.h"
+#import "UpdateVisitorVC.h"
+#import "AddUserVC.h"
+
+#import "JsonHelperClass.h"
+#import "AFHTTPSessionManager.h"
+#import "AFNetworkReachabilityManager.h"
+#import "AFSecurityPolicy.h"
+#import "AFURLRequestSerialization.h"
+#import "AFURLResponseSerialization.h"
+#import "AFURLSessionManager.h"
+#import "AFAutoPurgingImageCache.h"
+#import "AFImageDownloader.h"
+#import "AFNetworkActivityIndicatorManager.h"
+#import "UIActivityIndicatorView+AFNetworking.h"
+#import "UIButton+AFNetworking.h"
+#import "UIImageView+AFNetworking.h"
+#import "UIProgressView+AFNetworking.h"
+#import "UIRefreshControl+AFNetworking.h"
+#import "UIWebView+AFNetworking.h"
+#import "UIImageView+UIActivityIndicatorForSDWebImage.h"
+#import "Reachability.h"
+#import "AppConstants.h"
+#import "MBProgressHUD.h"
+#define NSLog if(0) NSLog
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
